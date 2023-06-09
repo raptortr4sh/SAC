@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Question4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextMeasure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Measure"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextGrams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Grams"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calories"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextProtein"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Protein"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextSatFat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sat.Fat"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextFiber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fiber"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextCarbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Carbs"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonAddFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
